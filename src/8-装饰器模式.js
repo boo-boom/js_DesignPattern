@@ -135,25 +135,24 @@
 // const d1 = new Demo()
 // d1.fnsay()                      // 假设函数都是同步时：test2 => test1 => fnsay
 
-
 // end-------------------------------------------------
 
 // 类装饰器执行顺序
 @testDec2
 @testDec1
 class Demo {
-    constructor() {
-        console.log('类...')
-        console.log(Demo.sss)
-    }
-    static sss = {
-        s: 'abc'
-    }
+  constructor() {
+    console.log("类...");
+    console.log(Demo.sss);
+  }
+  static sss = {
+    s: "abc"
+  };
 }
 function testDec1() {
-    console.log('类装饰器1...')
+  console.log("类装饰器1...");
 }
 function testDec2() {
-    console.log('类装饰器2...')
+  console.log("类装饰器2...");
 }
-new Demo()          // testDec1 => testDec2 => constructor
+new Demo(); // testDec1 => testDec2 => constructor

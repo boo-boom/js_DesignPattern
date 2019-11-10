@@ -28,7 +28,6 @@
 
 // A.B()
 
-
 // console.log([1,2] + ['aaa'])
 
 // const p1 = document.querySelector('#p1')
@@ -72,7 +71,7 @@
 // console.log(a)              // undefined
 // var a = 'hello world'
 // function b() {
-//     console.log('call b')   
+//     console.log('call b')
 // }
 
 // function a() {
@@ -114,15 +113,15 @@
 //         let x = 0;
 //         let y = 0;
 //         let sum;
-        
+
 //         if ( i >= 0 ) {
 //             x = a[i] - '0'
 //             i--
-//         } 
+//         }
 //         if ( j >= 0 ) {
 //             y = b[j] - '0'
 //             j--
-//         } 
+//         }
 //         sum = x + y + carry;
 //         if (sum >= 10) {
 //             carry = 1
